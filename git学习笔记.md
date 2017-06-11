@@ -13,4 +13,6 @@
 
 6、git remote add origin https://github.com/asmine/Notes.git
 
-7、提交至远程仓库repository：git push -u origin master
+7、提交至远程仓库repository：git push -u origin master 
+
+8、从远程仓库更新代码至本地：git pull https://github.com/asmine/Notes.git
