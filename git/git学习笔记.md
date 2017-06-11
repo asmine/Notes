@@ -17,3 +17,6 @@
 7、提交至远程仓库repository：git push -u origin master 
 
 8、从远程仓库更新代码至本地：git pull https://github.com/asmine/Notes.git
+
+9、删除文件：git rm <filename>
+
