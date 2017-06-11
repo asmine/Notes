@@ -1,6 +1,7 @@
 #Git学习笔记#
 
 ##从零开始创建一个git项目##
+
 1、首先在自己的github上创建一个项目仓库repository，比如Notes，创建完成后拷贝该repository的地址：[https://github.com/asmine/Notes.git](https://github.com/asmine/Notes.git "https://github.com/asmine/Notes.git")
 
 2、在本地创建Notes目录, mkdir Notes
