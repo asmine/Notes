@@ -75,25 +75,25 @@ git就会的自动把所有已经跟踪过的文件暂存起来并一并提交�
 
   -2  仅显示最近两次提交
 
-Table 2. git log 的常用选项	说明
-
--p  按补丁格式显示每个更新之间的差异。
-
---stat  显示每次更新的文件修改统计信息。
-
---shortstat  只显示 --stat 中最后的行数修改添加移除统计。
-
---name-only  仅在提交信息后显示已修改的文件清单。
-
---name-status  显示新增、修改、删除的文件清单。
-
---abbrev-commit  仅显示 SHA-1 的前几个字符，而非所有的 40 个字符。
-
---relative-date  使用较短的相对时间显示（比如，“2 weeks ago”）。
-
---graph  显示 ASCII 图形表示的分支合并历史。
-
---pretty  使用其他格式显示历史提交信息。可用的选项包括 oneline，short，full，fuller 和 format（后跟指定格式）。
+> Table 2. git log 的常用选项	说明
+> 
+> -p  按补丁格式显示每个更新之间的差异。
+> 
+> --stat  显示每次更新的文件修改统计信息。
+> 
+> --shortstat  只显示 --stat 中最后的行数修改添加移除统计。
+> 
+> --name-only  仅在提交信息后显示已修改的文件清单。
+> 
+> --name-status  显示新增、修改、删除的文件清单。
+> 
+> --abbrev-commit  仅显示 SHA-1 的前几个字符，而非所有的 40 个字符。
+> 
+> --relative-date  使用较短的相对时间显示（比如，“2 weeks ago”）。
+> 
+> --graph  显示 ASCII 图形表示的分支合并历史。
+> 
+> --pretty  使用其他格式显示历史提交信息。可用的选项包括 oneline，short，full，fuller 和 format（后跟指定格式）。
 
 15、取消暂存的文件：
 
@@ -120,3 +120,22 @@ Table 2. git log 的常用选项	说明
    查看远程仓库：
 
 	git remote show [remote-name]
+
+
+
+> 参考文档：
+> 
+>1. ProGit中文版：
+[https://git-scm.com/book/zh/v2](https://git-scm.com/book/zh/v2 "https://git-scm.com/book/zh/v2")
+
+>2.  廖雪峰的Git教程： 
+[http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000 "http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000")
+
+>3. Git简易指南：
+[http://rogerdudler.github.io/git-guide/index.zh.html](http://rogerdudler.github.io/git-guide/index.zh.html "http://rogerdudler.github.io/git-guide/index.zh.html")
+
+>4. 常用 Git 命令清单:[http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html?bsh_bid=955669550](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html?bsh_bid=955669550 "http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html?bsh_bid=955669550")
+
+>5. Git远程操作详解:[http://www.ruanyifeng.com/blog/2014/06/git_remote.html](http://www.ruanyifeng.com/blog/2014/06/git_remote.html "http://www.ruanyifeng.com/blog/2014/06/git_remote.html")
+
+>6. Git分支管理策略:[http://www.ruanyifeng.com/blog/2012/07/git](http://www.ruanyifeng.com/blog/2012/07/git "http://www.ruanyifeng.com/blog/2012/07/git")
